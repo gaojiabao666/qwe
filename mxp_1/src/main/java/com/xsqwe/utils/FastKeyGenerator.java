@@ -8,7 +8,7 @@ import java.util.concurrent.atomic.AtomicInteger;
 
 import org.apache.commons.lang3.StringUtils;
 
-import com.meditrusthealth.fast.common.core.web.enums.FastDomainEnum;
+import com.xsqwe.web.enums.FastDomainEnum;
 
 import lombok.extern.slf4j.Slf4j;
 

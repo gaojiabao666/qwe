@@ -3,7 +3,7 @@
  */
 package com.xsqwe.utils;
 
-import com.meditrusthealth.fast.common.core.web.enums.FastDomainEnum;
+import com.xsqwe.web.enums.FastDomainEnum;
 
 /**
  * <p>

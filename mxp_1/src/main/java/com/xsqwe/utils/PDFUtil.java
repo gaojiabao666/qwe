@@ -19,8 +19,8 @@ import com.itextpdf.text.pdf.parser.ImageRenderInfo;
 import com.itextpdf.text.pdf.parser.PdfReaderContentParser;
 import com.itextpdf.text.pdf.parser.RenderListener;
 import com.itextpdf.text.pdf.parser.TextRenderInfo;
-import com.meditrusthealth.fast.common.core.web.enums.CommonCodeEnum;
-import com.meditrusthealth.fast.common.core.web.exception.CommonException;
+import com.xsqwe.web.enums.CommonCodeEnum;
+import com.xsqwe.web.exception.CommonException;
 
 import lombok.extern.slf4j.Slf4j;
 
