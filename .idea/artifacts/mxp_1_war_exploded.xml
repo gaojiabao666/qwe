@@ -20,6 +20,8 @@
           <element id="library" level="project" name="Maven: org.slf4j:slf4j-simple:1.7.25" />
           <element id="library" level="project" name="Maven: org.slf4j:slf4j-api:1.7.25" />
           <element id="library" level="project" name="Maven: commons-codec:commons-codec:1.11" />
+          <element id="library" level="project" name="Maven: com.belerweb:pinyin4j:2.5.1" />
+          <element id="library" level="project" name="Maven: org.projectlombok:lombok:1.16.6" />
         </element>
       </element>
       <element id="directory" name="META-INF">
