@@ -8,13 +8,12 @@ import java.util.Collections;
 import java.util.LinkedList;
 import java.util.List;
 
+import com.xsqwe.core.annotation.EpColumn;
+import com.xsqwe.core.annotation.EpColumnDir;
+import com.xsqwe.utils.FastCodeUtils;
+import com.xsqwe.utils.Tools;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
-
-import com.meditrusthealth.fast.common.core.annotation.EpColumn;
-import com.meditrusthealth.fast.common.core.annotation.EpColumnDir;
-import com.meditrusthealth.fast.common.core.utils.FastCodeUtils;
-import com.meditrusthealth.fast.common.core.utils.Tools;
 
 /**
  * <p>

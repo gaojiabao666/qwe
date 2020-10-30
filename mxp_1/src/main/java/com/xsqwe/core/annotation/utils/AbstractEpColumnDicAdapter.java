@@ -1,12 +1,10 @@
-/**
- *  www.meditrusthealth.com Copyright © MediTrust Health 2017
- */
 package com.xsqwe.core.annotation.utils;
 
 import com.xsqwe.utils.Tools;
+import com.xsqwe.web.exception.CommonException;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
-import com.xsqwe.web.exception.CommonException;
+
 
 /**
  * <p>

@@ -24,7 +24,7 @@ public class SpringContextUtil implements ApplicationContextAware {
 
 	@Override
 	public void setApplicationContext(ApplicationContext applicationContext) throws BeansException {
-		com.meditrusthealth.fast.ep.core.admin.utils.SpringContextUtil.applicationContext = applicationContext;
+//		com.meditrusthealth.fast.ep.core.admin.utils.SpringContextUtil.applicationContext = applicationContext;
 	}
 
 	public static ApplicationContext getApplicationContext() {

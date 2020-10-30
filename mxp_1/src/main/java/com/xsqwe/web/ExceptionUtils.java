@@ -5,6 +5,7 @@ package com.xsqwe.web;
 
 
 
+import com.xsqwe.admin.enums.EpCoreAdminEnum;
 import com.xsqwe.web.enums.FastEnum;
 import com.xsqwe.web.exception.CommonException;
 import lombok.extern.slf4j.Slf4j;
@@ -25,7 +26,7 @@ public final class ExceptionUtils {
 		return new CommonException(fastResponse.getCode(), fastResponse.getMessage(), fastResponse.getSubMessage());
 	}
 
-	public static CommonException create(FastEnum fastEnum) {
+	public static CommonException create(EpCoreAdminEnum fastEnum) {
 		log.info("FastEnum: {}", fastEnum.toString());
 		return new CommonException(fastEnum.getCode(), fastEnum.getMessage());
 	}
@@ -35,7 +36,7 @@ public final class ExceptionUtils {
 		return new CommonException(fastEnum.getCode(), fastEnum.getMessage(), throwable);
 	}
 
-	public static CommonException create(FastEnum fastEnum, String subMessage) {
+	public static CommonException create(EpCoreAdminEnum fastEnum, Exception subMessage) {
 		log.info("FastEnum: {}, SubMessage: {}", fastEnum.toString(), subMessage);
 		return new CommonException(fastEnum.getCode(), fastEnum.getMessage(), subMessage);
 	}

@@ -1,6 +1,4 @@
-/**
- *  www.meditrusthealth.com Copyright © MediTrust Health 2017
- */
+
 package com.xsqwe.core.annotation.utils;
 
 /**

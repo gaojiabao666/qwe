@@ -1,10 +1,10 @@
 package com.xsqwe.admin.utils;
 
-import com.meditrusthealth.fast.common.core.annotation.utils.EpColumnData;
-import com.meditrusthealth.fast.common.core.annotation.utils.EpColumnUtils;
-import com.meditrusthealth.fast.common.core.utils.DateUtils;
-import com.meditrusthealth.fast.common.web.utils.ExceptionUtils;
-import com.meditrusthealth.fast.ep.core.admin.enums.EpCoreAdminEnum;
+import com.xsqwe.admin.enums.EpCoreAdminEnum;
+import com.xsqwe.core.annotation.utils.EpColumnData;
+import com.xsqwe.core.annotation.utils.EpColumnUtils;
+import com.xsqwe.utils.DateUtils;
+import com.xsqwe.web.ExceptionUtils;
 
 import java.beans.PropertyDescriptor;
 import java.lang.reflect.Field;
