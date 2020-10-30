@@ -9,10 +9,10 @@ import com.itextpdf.text.pdf.BaseFont;
 import com.itextpdf.text.pdf.PdfContentByte;
 import com.itextpdf.text.pdf.PdfReader;
 import com.itextpdf.text.pdf.PdfStamper;
-import com.meditrusthealth.fast.common.core.utils.StringUtils;
-import com.meditrusthealth.fast.common.core.utils.Tools;
-import com.meditrusthealth.fast.ep.core.admin.request.EpCoreFileCopyRequest;
-import com.meditrusthealth.fast.ep.core.admin.request.TextEditerRequest;
+import com.xsqwe.admin.request.EpCoreFileCopyRequest;
+import com.xsqwe.admin.request.TextEditerRequest;
+import com.xsqwe.utils.StringUtils;
+import com.xsqwe.utils.Tools;
 
 import java.io.*;
 import java.util.Base64;

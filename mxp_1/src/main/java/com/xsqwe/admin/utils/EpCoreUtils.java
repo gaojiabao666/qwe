@@ -1,6 +1,6 @@
 package com.xsqwe.admin.utils;
 
-import com.meditrusthealth.fast.common.core.utils.Tools;
+import com.xsqwe.utils.Tools;
 import lombok.extern.slf4j.Slf4j;
 import org.dom4j.Document;
 import org.dom4j.io.OutputFormat;

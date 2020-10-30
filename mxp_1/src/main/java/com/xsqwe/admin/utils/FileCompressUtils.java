@@ -1,12 +1,12 @@
 package com.xsqwe.admin.utils;
 
-import com.meditrusthealth.fast.common.core.utils.Tools;
-import com.meditrusthealth.fast.common.core.web.exception.CommonException;
-import com.meditrusthealth.fast.common.web.utils.ExceptionUtils;
-import com.meditrusthealth.fast.ep.core.admin.constants.EpCoreAdminConstants;
-import com.meditrusthealth.fast.ep.core.admin.db.entity.ZipFile;
-import com.meditrusthealth.fast.ep.core.admin.db.entity.ZipFileArchive;
-import com.meditrusthealth.fast.ep.core.admin.enums.EpCoreAdminEnum;
+import com.xsqwe.admin.constants.EpCoreAdminConstants;
+import com.xsqwe.admin.entity.ZipFile;
+import com.xsqwe.admin.entity.ZipFileArchive;
+import com.xsqwe.admin.enums.EpCoreAdminEnum;
+import com.xsqwe.utils.Tools;
+import com.xsqwe.web.ExceptionUtils;
+import com.xsqwe.web.exception.CommonException;
 import lombok.extern.slf4j.Slf4j;
 import org.apache.commons.compress.archivers.zip.ZipArchiveEntry;
 import org.apache.commons.compress.archivers.zip.ZipArchiveOutputStream;
