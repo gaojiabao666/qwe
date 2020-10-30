@@ -4,8 +4,8 @@
 package com.xsqwe.admin.utils;
 
 import com.alibaba.fastjson.JSONObject;
-import com.meditrusthealth.fast.common.core.web.enums.CommonCodeEnum;
-import com.meditrusthealth.fast.common.core.web.exception.CommonException;
+import com.xsqwe.web.enums.CommonCodeEnum;
+import com.xsqwe.web.exception.CommonException;
 import org.apache.http.HttpEntity;
 import org.apache.http.NameValuePair;
 import org.apache.http.client.entity.UrlEncodedFormEntity;
